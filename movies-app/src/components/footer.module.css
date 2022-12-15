@@ -1,0 +1,15 @@
+.footer {
+    padding: 10px 0px;
+    /* background-color: rebeccapurple; */
+    background-color: #1e2931;
+}
+
+.footer h5 {
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: .5rem;
+    font-style: italic;
+
+}

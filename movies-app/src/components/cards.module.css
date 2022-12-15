@@ -1,0 +1,63 @@
+.mov_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    /* grid-template-columns: repeat(5, 1fr); */
+    gap: 15px;
+    padding: 10px 100px;
+    cursor: pointer;
+}
+
+
+
+.mov_list div img {
+    height: 80%;
+    width: 100%;
+}
+
+.title {
+    background-color: grey;
+    padding: 1px 0px;
+    margin-top: -10px;
+}
+
+.mov_list div {
+    position: relative;
+}
+
+.mov_list div:hover .title {
+    top: 40%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    margin: 0;
+    /* transition: ease-in-out; */
+}
+
+.mov_list div:hover img {
+    height: 93%;
+    /* transition: ease-in-out; */
+}
+
+.no_movie {
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: .3rem;
+    color: red;
+}
+
+.title h4 {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.error {
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: .3rem;
+    color: red;
+}

@@ -1,0 +1,17 @@
+.search
+{
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 75%;
+}
+.search input{
+    width: 100%;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: .3rem;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+}
